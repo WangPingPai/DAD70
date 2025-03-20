@@ -49,12 +49,12 @@
 .card .front {
     background-image: url('images/front.jpg'); /* 替換成你的正面圖片路徑 */
     background-size: cover;
-    background-position: center;
+    background-position: top left; /* 讓圖片的左上角對齊卡片的左上角 */
 }
 
 .card .back {
     background-size: cover;
-    background-position: center;
+    background-position: top left; /* 讓圖片的左上角對齊卡片的左上角 */
     transform: rotateY(180deg);
 }
 
